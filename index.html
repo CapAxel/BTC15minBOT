@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagnostic &amp; Territoire — Bureau d'études en aménagement du territoire</title>
+  <meta name="description" content="Diagnostic & Territoire, bureau d'études en aménagement : diagnostics territoriaux, stratégie foncière et sobriété (ZAN), projet de territoire, observatoires et tableaux de bord. Comprendre votre territoire. Éclairer vos décisions.">
+  <meta property="og:title" content="Diagnostic & Territoire — Bureau d'études">
+  <meta property="og:description" content="Comprendre votre territoire. Éclairer vos décisions.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== En-tête ===== -->
+  <header class="site-header" id="haut">
+    <div class="container header-inner">
+      <a href="#haut" class="brand" aria-label="Diagnostic & Territoire — retour à l'accueil">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.55"/>
+          <circle cx="20" cy="20" r="4.5" fill="currentColor"/>
+        </svg>
+        <span class="brand-name">Diagnostic <em>&amp;</em> Territoire</span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+        <a href="#services">Services</a>
+        <a href="#approche">Notre approche</a>
+        <a href="#apropos">Le bureau</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== Héro ===== -->
+    <section class="hero">
+      <div class="hero-topo" aria-hidden="true">
+        <svg viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+          <g fill="none" stroke="currentColor" stroke-width="1.4">
+            <path d="M-50 480 C 150 400, 280 520, 480 440 S 850 380, 1050 460 S 1250 420, 1300 440"/>
+            <path d="M-50 420 C 180 330, 320 460, 520 380 S 880 310, 1080 400 S 1260 350, 1300 370"/>
+            <path d="M-50 360 C 200 260, 360 400, 560 320 S 900 240, 1100 340 S 1270 280, 1300 300"/>
+            <path d="M-50 300 C 220 200, 400 340, 600 260 S 920 180, 1120 280 S 1280 220, 1300 240"/>
+            <path d="M-50 240 C 240 150, 430 280, 640 210 S 940 130, 1140 220 S 1285 165, 1300 180"/>
+            <path d="M-50 180 C 260 100, 460 220, 680 160 S 960 80, 1160 160 S 1290 110, 1300 120"/>
+          </g>
+        </svg>
+      </div>
+      <div class="container hero-inner">
+        <p class="hero-kicker reveal">Bureau d'études — aménagement &amp; urbanisme</p>
+        <h1 class="reveal">Comprendre votre territoire.<br><span>Éclairer vos décisions.</span></h1>
+        <p class="hero-lede reveal">
+          Diagnostic &amp; Territoire accompagne les collectivités et les acteurs publics :
+          diagnostics territoriaux, stratégie foncière et sobriété, projet de territoire,
+          outils de suivi et observatoires.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#services">Découvrir notre offre</a>
+          <a class="btn btn-ghost" href="#contact">Parler de votre projet</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Bandeau chiffres / piliers ===== -->
+    <section class="pillars" aria-label="Nos piliers">
+      <div class="container pillars-grid">
+        <div class="pillar reveal">
+          <span class="pillar-num">01</span>
+          <p><strong>Données &amp; SIG</strong><br>analyse spatiale, cartographie et croisement de données multi-sources</p>
+        </div>
+        <div class="pillar reveal">
+          <span class="pillar-num">02</span>
+          <p><strong>Terrain</strong><br>repérages sur site pour confronter les données à la réalité</p>
+        </div>
+        <div class="pillar reveal">
+          <span class="pillar-num">03</span>
+          <p><strong>Stratégie</strong><br>des constats aux scénarios, jusqu'aux arbitrages</p>
+        </div>
+        <div class="pillar reveal">
+          <span class="pillar-num">04</span>
+          <p><strong>Restitution</strong><br>des livrables lisibles, à destination des élus et des techniciens</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-kicker">Notre offre de services</p>
+          <h2>Quatre pôles d'expertise, une même exigence&nbsp;: la lecture fine de votre territoire</h2>
+        </header>
+
+        <!-- 1. Connaissance du territoire -->
+        <article class="service reveal" id="connaissance">
+          <div class="service-head">
+            <span class="service-num">1</span>
+            <div>
+              <h3>Connaissance de votre territoire</h3>
+              <p class="service-intro">Nos diagnostics produisent une vision claire, objectivée et spatialisée de votre territoire et de ses dynamiques.</p>
+            </div>
+          </div>
+          <div class="service-grid">
+            <div class="offer-card">
+              <h4>Diagnostic territorial</h4>
+              <p>Portrait complet de votre territoire, croisant données quantitatives, qualitatives et terrain pour identifier les atouts, fragilités et enjeux&nbsp;:</p>
+              <ul>
+                <li>dynamiques démographiques, sociales et économiques,</li>
+                <li>armatures urbaines, équipements et niveaux de services,</li>
+                <li>attractivité, tourisme et patrimoine,</li>
+                <li>flux, mobilités et bassins de vie,</li>
+                <li>discontinuités et déséquilibres territoriaux,</li>
+                <li>ZAN et sobriété.</li>
+              </ul>
+            </div>
+            <div class="offer-card">
+              <h4>Diagnostic commercial et économique</h4>
+              <p>Analyse du tissu commercial et des dynamiques économiques locales&nbsp;:</p>
+              <ul>
+                <li>vitalité des centralités et du commerce de proximité,</li>
+                <li>fonctionnement et attractivité des zones d'activités,</li>
+                <li>foncier économique et vacance,</li>
+                <li>poids et diversité du tissu productif local.</li>
+              </ul>
+            </div>
+            <div class="offer-card">
+              <h4>Diagnostic habitat</h4>
+              <p>Lecture territoriale de la question résidentielle et anticipation des besoins&nbsp;:</p>
+              <ul>
+                <li>structure, âge et évolution du parc de logements,</li>
+                <li>vacance résidentielle et mécanismes explicatifs,</li>
+                <li>adéquation entre l'offre existante et la demande,</li>
+                <li>prospective des besoins en logements.</li>
+              </ul>
+            </div>
+          </div>
+          <details class="approach">
+            <summary>Quelle est notre approche&nbsp;?</summary>
+            <ul>
+              <li><strong>Analyse spatiale et cartographie SIG&nbsp;:</strong> géotraitements, modélisations spatiales, cartes de synthèse.</li>
+              <li><strong>Croisement de données multi-sources&nbsp;:</strong> exploitation des bases de données publiques et locales.</li>
+              <li><strong>Terrain&nbsp;:</strong> repérages sur site pour confronter les données à la réalité.</li>
+              <li><strong>Indicateurs territoriaux</strong>, benchmark avec des territoires de référence.</li>
+              <li><strong>Synthèse et restitution&nbsp;:</strong> rédaction d'un document stratégique à destination des élus et des techniciens et présentation des conclusions.</li>
+            </ul>
+          </details>
+        </article>
+
+        <!-- 2. Stratégie foncière et sobriété -->
+        <article class="service reveal" id="foncier">
+          <div class="service-head">
+            <span class="service-num">2</span>
+            <div>
+              <h3>Stratégie foncière et sobriété</h3>
+              <p class="service-intro">Votre foncier est une ressource précieuse et aujourd'hui contrainte. Parce que sobriété ne signifie pas renoncement, nous vous accompagnons dans la mesure de la consommation d'espaces, l'identification des leviers de densification et de renouvellement, ou encore la construction d'une stratégie foncière pour votre territoire.</p>
+            </div>
+          </div>
+          <div class="service-grid">
+            <div class="offer-card">
+              <h4>Audit foncier et consommation d'espaces</h4>
+              <p>Bilan précis de la consommation foncière, croisé avec les objectifs climatiques et réglementaires&nbsp;:</p>
+              <ul>
+                <li>bilan et trajectoire avec l'objectif national et territorialisé ZAN,</li>
+                <li>consommation d'ENAF sur la période de référence,</li>
+                <li>note de cadrage pour mise en compatibilité PLU(i) ou SCoT,</li>
+                <li>cartographie de l'occupation des sols.</li>
+              </ul>
+            </div>
+            <div class="offer-card">
+              <h4>Gisements fonciers</h4>
+              <p>Repérage et hiérarchisation des espaces mobilisables&nbsp;:</p>
+              <ul>
+                <li>inventaire des dents creuses, des espaces sous-densifiés et vacants,</li>
+                <li>analyse de mutabilité,</li>
+                <li>notation multicritères des gisements fonciers.</li>
+              </ul>
+            </div>
+            <div class="offer-card">
+              <h4>Remobilisation des friches</h4>
+              <p>Scénarios pour transformer les friches et espaces vacants en opportunités&nbsp;:</p>
+              <ul>
+                <li>recensement et cartographie des friches,</li>
+                <li>analyse des freins à la remobilisation,</li>
+                <li>stratégie de remobilisation des sites aux plus forts enjeux,</li>
+                <li>première esquisse d'un montage opérationnel et financier.</li>
+              </ul>
+            </div>
+          </div>
+          <details class="approach">
+            <summary>Quelle est notre approche&nbsp;?</summary>
+            <ul>
+              <li><strong>Télédétection et SIG&nbsp;:</strong> orthophotographie et vues diachroniques pour mesurer l'évolution de l'occupation des sols et détecter les espaces sous-utilisés.</li>
+              <li><strong>Recensement des friches et identification de la vacance&nbsp;:</strong> analyse terrain, inventaires locaux et croisement avec les données sur la vacance.</li>
+              <li><strong>Visites de terrain&nbsp;:</strong> qualifier l'état du bâti, les usages réels, les contraintes et le potentiel de gisements.</li>
+            </ul>
+          </details>
+        </article>
+
+        <!-- 3. Stratégie et projet de territoire -->
+        <article class="service reveal" id="projet">
+          <div class="service-head">
+            <span class="service-num">3</span>
+            <div>
+              <h3>Stratégie et projet de territoire</h3>
+              <p class="service-intro">Une analyse sans vision claire reste un constat. Nous vous proposons des scénarios d'aménagement, vous aidons à construire un projet partagé par les acteurs locaux et à le traduire en orientations.</p>
+            </div>
+          </div>
+          <div class="service-grid two-cols">
+            <div class="offer-card">
+              <h4>Programmation urbaine et prospective</h4>
+              <p>Explorer les futurs possibles et préparer votre territoire&nbsp;: nous élaborons une stratégie sur-mesure selon vos besoins&nbsp;:</p>
+              <ul>
+                <li>scénarios d'aménagement court, moyen et long terme,</li>
+                <li>rédaction et mise en forme d'OAP sectorielles et thématiques,</li>
+                <li>anticipation des besoins du territoire,</li>
+                <li>accompagnement au choix et à l'arbitrage.</li>
+              </ul>
+            </div>
+            <div class="offer-card">
+              <h4>Projet de territoire</h4>
+              <p>Une feuille de route partagée et opérationnelle, fruit d'une démarche collaborative&nbsp;:</p>
+              <ul>
+                <li>analyse des enjeux et faiblesses du territoire,</li>
+                <li>animation participative et co-construction,</li>
+                <li>identification des leviers d'actions et axes de travail,</li>
+                <li>construction d'une vision territoriale,</li>
+                <li>formulation de scénarios d'aménagement prioritaires.</li>
+              </ul>
+            </div>
+          </div>
+          <details class="approach">
+            <summary>Quelle est notre approche&nbsp;?</summary>
+            <ul>
+              <li><strong>Diagnostic flash et cadrage&nbsp;:</strong> analyse transversale pour identifier rapidement les enjeux prioritaires et définir précisément les besoins de votre territoire.</li>
+              <li><strong>Prospective territoriale&nbsp;:</strong> croisement des dynamiques locales pour anticiper les tendances et les mutations à venir.</li>
+              <li><strong>Animation et co-construction&nbsp;:</strong> organisation d'ateliers de travail avec les élus, techniciens et acteurs du territoire pour forger une vision partagée, débattre des enjeux et faciliter les arbitrages politiques.</li>
+              <li><strong>Scénarisation&nbsp;:</strong> élaboration de propositions d'aménagement, en s'appuyant sur l'étude de projets de référence inspirants et de retours d'expérience réussis.</li>
+            </ul>
+          </details>
+        </article>
+
+        <!-- 4. Outils de suivi et observatoires -->
+        <article class="service reveal" id="observatoires">
+          <div class="service-head">
+            <span class="service-num">4</span>
+            <div>
+              <h3>Outils de suivi et observatoires</h3>
+              <p class="service-intro">Piloter, c'est évaluer dans la durée. Nous concevons des outils de suivi et d'observation qui permettent de suivre l'évolution du territoire et de mesurer l'effet de vos politiques.</p>
+            </div>
+          </div>
+          <div class="service-grid two-cols">
+            <div class="offer-card">
+              <h4>Tableaux de bord territoriaux</h4>
+              <p>Des outils de pilotage dynamiques pour transformer les données brutes en indicateurs lisibles&nbsp;:</p>
+              <ul>
+                <li>tableaux de bord interactifs,</li>
+                <li>indicateurs clés adaptés à vos enjeux,</li>
+                <li>cartographies dynamiques,</li>
+                <li>maintenance et actualisation.</li>
+              </ul>
+            </div>
+            <div class="offer-card">
+              <h4>Observatoires thématiques</h4>
+              <p>Analyse structurée et pérenne sur une thématique définie&nbsp;:</p>
+              <ul>
+                <li>collecte, organisation des données et chiffres clés,</li>
+                <li>espace de consultation en ligne et cartographie,</li>
+                <li>principales évolutions réglementaires du secteur ciblé,</li>
+                <li>rapports semestriels ou annuels.</li>
+              </ul>
+            </div>
+          </div>
+          <details class="approach">
+            <summary>Quelle est notre approche&nbsp;?</summary>
+            <ul>
+              <li><strong>Récolte de données&nbsp;:</strong> constitution de nos propres indicateurs et suivi régulier des derniers jeux de données.</li>
+              <li><strong>Valorisation des données&nbsp;:</strong> étude et mise en récit des indicateurs.</li>
+              <li><strong>Format&nbsp;:</strong> adaptable selon le public visé.</li>
+              <li>Des indicateurs facilement appréhendables et mobilisables dans le cadre de vos projets.</li>
+            </ul>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Notre approche (transverse) ===== -->
+    <section class="method" id="approche">
+      <div class="container">
+        <header class="section-head light reveal">
+          <p class="section-kicker">Notre approche</p>
+          <h2>De la donnée à la décision</h2>
+        </header>
+        <ol class="method-steps">
+          <li class="reveal">
+            <span class="step-num">1</span>
+            <h3>Cadrage</h3>
+            <p>Écoute de vos besoins, définition précise du périmètre et des questions auxquelles l'étude doit répondre.</p>
+          </li>
+          <li class="reveal">
+            <span class="step-num">2</span>
+            <h3>Analyse &amp; terrain</h3>
+            <p>Croisement de données multi-sources, géotraitements SIG et repérages sur site pour confronter les chiffres à la réalité.</p>
+          </li>
+          <li class="reveal">
+            <span class="step-num">3</span>
+            <h3>Scénarios</h3>
+            <p>Mise en perspective des constats, benchmark de territoires de référence et formulation de scénarios d'action.</p>
+          </li>
+          <li class="reveal">
+            <span class="step-num">4</span>
+            <h3>Restitution</h3>
+            <p>Documents stratégiques lisibles, cartes de synthèse et présentation des conclusions aux élus et aux techniciens.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== À propos ===== -->
+    <section class="about" id="apropos">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="section-kicker">Le bureau</p>
+          <h2>Un bureau d'études indépendant, au service des territoires</h2>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            <strong>Diagnostic &amp; Territoire</strong> est un bureau d'études spécialisé en aménagement
+            du territoire et en urbanisme. Nous accompagnons les communes, intercommunalités et
+            acteurs publics dans la connaissance de leur territoire, la définition de leur stratégie
+            foncière et la construction de leur projet de territoire.
+          </p>
+          <p>
+            Notre conviction&nbsp;: une décision publique éclairée repose sur une lecture fine,
+            objectivée et spatialisée du territoire. C'est pourquoi chacune de nos missions croise
+            l'analyse de données, la cartographie SIG et le travail de terrain.
+          </p>
+          <ul class="about-list">
+            <li>Interlocuteur unique et disponible tout au long de la mission</li>
+            <li>Livrables opérationnels, pensés pour les élus comme pour les techniciens</li>
+            <li>Méthodes reproductibles et transparentes, fondées sur les données publiques et locales</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="section-kicker">Contact</p>
+          <h2>Parlons de votre territoire</h2>
+          <p class="contact-lede">
+            Un projet d'étude, un besoin de cadrage ou une simple question&nbsp;?
+            Écrivez-nous&nbsp;: nous revenons vers vous rapidement pour un premier échange sans engagement.
+          </p>
+          <ul class="contact-details">
+            <li>
+              <span class="contact-label">Courriel</span>
+              <a href="mailto:contact@diagnostic-territoire.fr">contact@diagnostic-territoire.fr</a>
+            </li>
+            <li>
+              <span class="contact-label">Brochure</span>
+              <a href="brochure-offre-de-services.pdf" download>Télécharger notre offre de services (PDF)</a>
+            </li>
+          </ul>
+        </div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cf-nom">Nom et prénom <span aria-hidden="true">*</span></label>
+              <input type="text" id="cf-nom" name="nom" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="cf-structure">Collectivité / structure</label>
+              <input type="text" id="cf-structure" name="structure" autocomplete="organization">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="cf-email">Courriel <span aria-hidden="true">*</span></label>
+              <input type="email" id="cf-email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="cf-sujet">Besoin</label>
+              <select id="cf-sujet" name="sujet">
+                <option>Connaissance du territoire</option>
+                <option>Stratégie foncière et sobriété</option>
+                <option>Stratégie et projet de territoire</option>
+                <option>Outils de suivi et observatoires</option>
+                <option>Autre demande</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="cf-message">Votre message <span aria-hidden="true">*</span></label>
+            <textarea id="cf-message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer le message</button>
+          <p class="form-note" id="form-note" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Pied de page ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">Diagnostic <em>&amp;</em> Territoire</p>
+        <p class="footer-tagline">Comprendre votre territoire. Éclairer vos décisions.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Navigation du pied de page">
+        <a href="#connaissance">Connaissance du territoire</a>
+        <a href="#foncier">Stratégie foncière &amp; sobriété</a>
+        <a href="#projet">Stratégie &amp; projet de territoire</a>
+        <a href="#observatoires">Outils de suivi &amp; observatoires</a>
+      </nav>
+      <p class="footer-legal">© <span id="year"></span> Diagnostic &amp; Territoire — Tous droits réservés · <a href="mentions-legales.html">Mentions légales</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
