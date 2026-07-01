@@ -1,6 +1,6 @@
-# Diagnostic & Territoire — Site vitrine
+# Diagnostics & Territoires — Site vitrine
 
-Site internet du bureau d'études **Diagnostic & Territoire**, spécialisé en
+Site internet du bureau d'études **Diagnostics & Territoires**, spécialisé en
 aménagement du territoire et urbanisme.
 
 > Comprendre votre territoire. Éclairer vos décisions.
@@ -33,8 +33,7 @@ depuis la branche souhaitée (racine).
 
 ## À personnaliser
 
-- L'adresse de contact `contact@diagnostic-territoire.fr` (dans `index.html`,
-  `script.js` et `mentions-legales.html`) — remplacer par l'adresse réelle.
-- Le formulaire ouvre le client de messagerie du visiteur (`mailto:`). Pour un
-  envoi direct sans client mail, brancher un service comme Formspree dans `script.js`.
-- Les mentions légales (forme juridique, SIRET, hébergeur…).
+- Le formulaire ouvre le client de messagerie du visiteur (`mailto:` vers
+  `cabinet@diagnoticsterritoires.com`). Pour un envoi direct sans client mail,
+  brancher un service comme Formspree dans `script.js`.
+- Les mentions légales : coordonnées de l'hébergeur (à compléter une fois le site en ligne).

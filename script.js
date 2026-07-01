@@ -1,4 +1,4 @@
-// Diagnostic & Territoire — interactions du site
+// Diagnostics & Territoires — interactions du site
 
 document.addEventListener("DOMContentLoaded", () => {
   // Année courante dans le pied de page
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Pour un envoi sans client mail, brancher un service type Formspree ici.
   const form = document.getElementById("contact-form");
   const note = document.getElementById("form-note");
-  const DESTINATAIRE = "contact@diagnostic-territoire.fr";
+  const DESTINATAIRE = "cabinet@diagnoticsterritoires.com";
 
   if (form && note) {
     form.addEventListener("submit", (event) => {
