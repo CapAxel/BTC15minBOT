@@ -22,6 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   }
 
+  // Ombre du bandeau au défilement
+  const header = document.querySelector(".site-header");
+  if (header) {
+    const onScroll = () => header.classList.toggle("scrolled", window.scrollY > 10);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }
+
   // Apparition au défilement
   const revealables = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window) {
